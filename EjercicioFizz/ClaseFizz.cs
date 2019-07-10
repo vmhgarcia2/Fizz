@@ -13,7 +13,32 @@ namespace EjercicioFizz
     {
         public static string Comprobar(int numero)
         {
-            throw new Exception("No implementado");
+            string resultado = "";
+
+            if (numero % 3 == 0 && numero % 5 == 0)
+            {
+                resultado = "FizzBuzz";
+            }
+            else
+            {
+                if (numero % 3 == 0)
+                {
+                    resultado = "Fizz";
+                }
+                else
+                {
+                    if (numero % 5 == 0)
+                    {
+                        resultado = "Buzz";
+                    }
+                    else
+                    {
+                        resultado = numero.ToString();
+                    }
+                }
+            }
+
+            return resultado;
         }
     }
 }

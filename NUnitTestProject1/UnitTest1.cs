@@ -27,7 +27,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -42,7 +42,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -57,7 +57,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -72,7 +72,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -87,7 +87,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -102,7 +102,7 @@ namespace Tests
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
         [Test]
@@ -110,14 +110,14 @@ namespace Tests
         {
             //Arrange
             int numero = 80;
-            string resultado = "FizzBuzz";
+            string resultado = "Buzz";
             string resultadoComprobar;
 
             //Act
             resultadoComprobar = ClaseFizz.Comprobar(numero);
 
             //Asert
-            Assert.Equals(resultado, resultadoComprobar);
+            Assert.AreEqual(resultado, resultadoComprobar);
         }
 
 
