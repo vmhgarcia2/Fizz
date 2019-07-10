@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioFizz", "EjercicioFizz.csproj", "{1B6B3339-2BA2-4239-AA1D-539214EFB0C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "..\NUnitTestProject1\NUnitTestProject1.csproj", "{4323FFF6-CA67-4166-9589-47F003D63047}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFizz", "..\NUnitTestProject1\TestFizz.csproj", "{4323FFF6-CA67-4166-9589-47F003D63047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
